@@ -21,7 +21,7 @@ int main()
         }
         cin>>k>>x;
         for(int i=0;i<n;i++){
-            b[i]=a[i]^x;
+            b[i]=a[i]^x;// xor
             v.push_back(b[i]-a[i]);
         }
         
