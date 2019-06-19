@@ -6,6 +6,7 @@ int main()
     cin>>t;
     set<long long> s;
     while(t--){
+        #clearing it
         s.clear();
         maxi=-1;
         cin>>n;
